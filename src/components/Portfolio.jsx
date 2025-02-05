@@ -43,6 +43,7 @@ export default function Portfolio() {
                   Code
                 </button>
               </div>
+              <p>Coming soon...</p>
             </div>
           ))}
         </div>

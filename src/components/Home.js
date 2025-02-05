@@ -15,7 +15,7 @@ const Home = () => {
             I'm a Frontend Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 6 years of experience building and desgining software.
+            I have 2 years of experience in building and desgining software.
           </p>
 
           <div>
