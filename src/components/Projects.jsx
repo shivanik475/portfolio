@@ -2,7 +2,7 @@ import React from "react";
 import Weather from "../asset/Weather.png";
 import StickyNote from "../asset/StickyNote.png";
 
-export default function Portfolio() {
+export default function Projects() {
   const portfolios = [
     {
       id: 1,

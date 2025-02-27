@@ -7,7 +7,7 @@ import github from "../asset/github.png";
 import javascript from "../asset/javascript.png";
 import html from "../asset/HTML.png";
 
-export default function Experience() {
+export default function Skills() {
   const techs = [
     { id: 1, src: react, title: "React JS" },
     { id: 2, src: css, title: "CSS" },
@@ -20,7 +20,7 @@ export default function Experience() {
 
   return (
     <div
-      name="experience"
+      name="skills"
       className="bg-gradient-to-b from-gray-800 to-black w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
