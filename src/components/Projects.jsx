@@ -7,11 +7,23 @@ export default function Projects() {
     {
       id: 1,
       src: Weather,
+      link:"https://github.com/shivanik475/weather-App"
     },
     {
       id: 2,
       src: StickyNote,
+      link: "https://github.com/shivanik475/stickyNotes"
     },
+    {
+      id: 3,
+      src: "https://miro.medium.com/v2/resize:fit:800/1*Tk0DldorcoyL923BhnOs9A.png",
+      link: "https://github.com/shivanik475/pagination"
+    },
+    {
+      id: 4,
+      src: "https://imagecaptiongenerator.com/social-share.png",
+      link: ""
+    }
   ];
   return (
     <div
@@ -26,22 +38,23 @@ export default function Projects() {
           <p className="py-6">Check out some of my work right here</p>
         </div>
         <div className="grid sm:grid-cols-2 md-grid-cols-3 gap-8 px-12 sm:px-0 ">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src,link }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               ></img>
-              <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
-                </button>
-              </div>
-              <p>Coming soon...</p>
+              <div className="text-center mt-3">
+      <a
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-white-500 hover:underline font-semibold"
+      >
+        View Project
+      </a>
+    </div>
             </div>
           ))}
         </div>
