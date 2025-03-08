@@ -7,7 +7,7 @@ export default function Projects() {
     {
       id: 1,
       src: Weather,
-      link:"https://github.com/shivanik475/weather-App"
+      link: "https://github.com/shivanik475/weather-App"
     },
     {
       id: 2,
@@ -21,8 +21,13 @@ export default function Projects() {
     },
     {
       id: 4,
-      src: "https://imagecaptiongenerator.com/social-share.png",
+      src: "https://files.codingninjas.in/article_images/image-caption-generator-0-1689021597.webp",
       link: ""
+    },
+    {
+      id: 5,
+      src: "https://i.ytimg.com/vi/sHG3Sf6XN9g/sddefault.jpg",
+      link: "https://github.com/shivanik475/ImageGallery"
     }
   ];
   return (
@@ -37,8 +42,8 @@ export default function Projects() {
           </p>
           <p className="py-6">Check out some of my work right here</p>
         </div>
-        <div className="grid sm:grid-cols-2 md-grid-cols-3 gap-8 px-12 sm:px-0 ">
-          {portfolios.map(({ id, src,link }) => (
+        <div className="grid sm:grid-cols-3 md-grid-cols-3 gap-8 px-6 sm:px-0 ">
+          {portfolios.map(({ id, src, link }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -46,15 +51,15 @@ export default function Projects() {
                 className="rounded-md duration-200 hover:scale-105"
               ></img>
               <div className="text-center mt-3">
-      <a
-        href={link}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-white-500 hover:underline font-semibold"
-      >
-        View Project
-      </a>
-    </div>
+                <a
+                  href={link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white-500 hover:underline font-semibold"
+                >
+                  View Project
+                </a>
+              </div>
             </div>
           ))}
         </div>
