@@ -34,6 +34,12 @@ export default function Projects() {
       src: "https://reactjsguru.com/wp-content/uploads/2022/11/Screenshot-793-1024x640.webp",
       link: "https://github.com/shivanik475/calculator",
     },
+
+    {
+      id: 6,
+      src: "https://www.aimtechnologies.co/wp-content/uploads/2023/11/AI-Chatbots.jpg",
+      link: "https://github.com/shivanik475/AIChatBot",
+    },
   ];
   return (
     <div
