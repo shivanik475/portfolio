@@ -7,28 +7,33 @@ export default function Projects() {
     {
       id: 1,
       src: Weather,
-      link: "https://github.com/shivanik475/weather-App"
+      link: "https://github.com/shivanik475/weather-App",
     },
     {
       id: 2,
       src: StickyNote,
-      link: "https://github.com/shivanik475/stickyNotes"
+      link: "https://github.com/shivanik475/stickyNotes",
     },
     {
       id: 3,
       src: "https://miro.medium.com/v2/resize:fit:800/1*Tk0DldorcoyL923BhnOs9A.png",
-      link: "https://github.com/shivanik475/pagination"
+      link: "https://github.com/shivanik475/pagination",
     },
     {
       id: 4,
       src: "https://files.codingninjas.in/article_images/image-caption-generator-0-1689021597.webp",
-      link: ""
+      link: "",
     },
     {
       id: 5,
       src: "https://i.ytimg.com/vi/sHG3Sf6XN9g/sddefault.jpg",
-      link: "https://github.com/shivanik475/ImageGallery"
-    }
+      link: "https://github.com/shivanik475/ImageGallery",
+    },
+    {
+      id: 5,
+      src: "https://reactjsguru.com/wp-content/uploads/2022/11/Screenshot-793-1024x640.webp",
+      link: "https://github.com/shivanik475/calculator",
+    },
   ];
   return (
     <div
