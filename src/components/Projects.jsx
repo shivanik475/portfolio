@@ -45,6 +45,11 @@ export default function Projects() {
       src: "https://s3-alpha.figma.com/hub/file/4640124499/85354f41-8eba-4ceb-ae49-55195943c4c7-cover.png",
       link: "https://github.com/shivanik475/carousel",
     },
+    {
+      id: 8,
+      src: "https://raw.githubusercontent.com/kyle-barth/tic-tac-toe/master/tic-tac-toe.PNG",
+      link: "https://github.com/shivanik475/TicTacToe",
+    },
   ];
   return (
     <div
