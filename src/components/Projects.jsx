@@ -40,6 +40,11 @@ export default function Projects() {
       src: "https://www.aimtechnologies.co/wp-content/uploads/2023/11/AI-Chatbots.jpg",
       link: "https://github.com/shivanik475/AIChatBot",
     },
+    {
+      id: 7,
+      src: "https://s3-alpha.figma.com/hub/file/4640124499/85354f41-8eba-4ceb-ae49-55195943c4c7-cover.png",
+      link: "https://github.com/shivanik475/carousel",
+    },
   ];
   return (
     <div
