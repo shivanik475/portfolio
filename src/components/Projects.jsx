@@ -52,7 +52,7 @@ export default function Projects() {
     },
     {
       id: 9,
-      src: "https://elegant-engelbart-b9c316.netlify.app/static/media/logo.b5048097.png",
+      src: "https://miro.medium.com/v2/resize:fit:890/format:webp/1*37owO1brkbJ-gIg9jIaP7g.png",
       link: "https://github.com/shivanik475/Dictionary",
     },
   ];
